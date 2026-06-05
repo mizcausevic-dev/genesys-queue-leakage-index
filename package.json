@@ -1,0 +1,23 @@
+{
+  "name": "genesys-queue-leakage-index",
+  "version": "1.0.0",
+  "description": "Genesys Queue Leakage Index turns Genesys signals into board-ready risk, savings, and investment decisions.",
+  "type": "module",
+  "license": "MIT",
+  "author": "mizcausevic-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizcausevic-dev/genesys-queue-leakage-index.git"
+  },
+  "keywords": ["genesys","cx-operations","kinetic-gain","executive-intelligence","risk-scoring"],
+  "bin": {
+    "genesys-queue-leakage-index": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
